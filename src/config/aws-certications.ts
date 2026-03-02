@@ -22,8 +22,8 @@ export const AWS_CERTIFICATIONS = [
   },
   {
     code: "SOA",
-    name: "SysOps Administrator Associate",
-    expectedFileName: "aws-certified-sysops-administrator-associate.png",
+    name: "CloudOps Administrator Associate",
+    expectedFileName: "aws-certified-cloudops-engineer-associate.png",
   },
   {
     code: "DAS",
