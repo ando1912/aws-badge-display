@@ -112,7 +112,7 @@ const AWSSertificationBadgeDisplay: React.FC = () => {
         const margin = 15;
     
         // Calculate the required canvas size based on the positions of the badges
-        const positions = getPositions(4, 6, badgeEdge, margin);
+        const positions = getPositions(2, 12, badgeEdge, margin);
         setPositions(positions); // 計算された位置を状態に保存
     
         // Determine the maximum width and height needed for the canvas based on selected badges
@@ -242,7 +242,7 @@ const AWSSertificationBadgeDisplay: React.FC = () => {
 
                     <Grid container spacing={2}>
                         {[...Array(24)].map((_, index) => (
-                            <Grid item xs={2} key={index}>
+                            <Grid item xs={1} key={index}>
                                 <Select
                                     fullWidth
                                     value={selectedBadges[index]}
